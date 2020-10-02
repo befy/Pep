@@ -1,0 +1,6 @@
+framework module Pep {
+  umbrella header "Pep-umbrella.h"
+
+  export *
+  module * { export * }
+}

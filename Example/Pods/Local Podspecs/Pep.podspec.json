@@ -1,0 +1,22 @@
+{
+  "name": "Pep",
+  "version": "0.1.0",
+  "summary": "A short description of Pep.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/befy/Pep",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "befy": "alper@tabak.app"
+  },
+  "source": {
+    "git": "https://github.com/befy/Pep.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Pep/Classes/**/*"
+}

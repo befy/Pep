@@ -1,0 +1,16 @@
+PODS:
+  - Pep (0.1.0)
+
+DEPENDENCIES:
+  - Pep (from `../`)
+
+EXTERNAL SOURCES:
+  Pep:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Pep: cee3f48e2f39481b04967c72363f0fa3f32e539d
+
+PODFILE CHECKSUM: 5dd738519e26e030bbf3ad2da005b616c5f6e6eb
+
+COCOAPODS: 1.9.3
