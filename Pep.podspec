@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Pep'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Pep.'
+  s.summary          = 'Pep a.k.a PepBar is a light-weight and easily customizable animated TabBar library.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'Pep has a different TabBar design system. It uses Child View Controllers as a Container. Without any TabBar inheritance, Pep is very fast, efficient to use and very easy to customize.'
                        DESC
 
   s.homepage         = 'https://github.com/befy/Pep'
@@ -26,11 +26,14 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'befy' => 'alper@tabak.app' }
   s.source           = { :git => 'https://github.com/befy/Pep.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/alpertab'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'Pep/Classes/**/*'
+  s.ios.deployment_target = '12.0'
+  s.swift_version = '5.0'
+  s.source_files = 'Sources/**/*.swift'
+  s.platforms = {
+      "ios": "12.0"
+  }
   
   # s.resource_bundles = {
   #   'Pep' => ['Pep/Assets/*.png']
