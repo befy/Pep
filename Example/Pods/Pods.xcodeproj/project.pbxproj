@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		226E73A092A9928E4F89ACC789802769 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAA8591E560008EDE6560CBDF78031 /* ReplaceMe.swift */; };
+		215B147B252733B600B46E88 /* PepBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215B147A252733B600B46E88 /* PepBarController.swift */; };
+		215B1480252733D300B46E88 /* PepBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215B147F252733D300B46E88 /* PepBar.swift */; };
+		215B148B2527346A00B46E88 /* PepBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215B148A2527346A00B46E88 /* PepBarItem.swift */; };
+		215B14902527349B00B46E88 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215B148F2527349B00B46E88 /* Extensions.swift */; };
 		228F54B3F2F0924138A55DFB96AF5971 /* Pep-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F963835E957AA98D1B1BC467963B77C /* Pep-dummy.m */; };
 		27B3C51AB2D82DD38BC5225C3003B5DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5A0D87E7B0EF2C9B1C70B2F4AC360E81 /* Pods-Pep_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D61D71C714F526EB1F058F20C9F8D6BC /* Pods-Pep_Example-dummy.m */; };
@@ -40,27 +43,30 @@
 		00C8898A757EB1B6D215DFDCC2E138CD /* Pods-Pep_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pep_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		02219A40E4155405C79B78DC13C3B506 /* Pods-Pep_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pep_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		06960742908856A7D2BDDB38B96C93FE /* Pep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pep.release.xcconfig; sourceTree = "<group>"; };
-		0CBAA8591E560008EDE6560CBDF78031 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Pep/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		0F286A9EFB12CBC4918F343B83FAB81F /* Pods-Pep_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pep_Tests.modulemap"; sourceTree = "<group>"; };
+		215B147A252733B600B46E88 /* PepBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepBarController.swift; sourceTree = "<group>"; };
+		215B147F252733D300B46E88 /* PepBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepBar.swift; sourceTree = "<group>"; };
+		215B148A2527346A00B46E88 /* PepBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepBarItem.swift; sourceTree = "<group>"; };
+		215B148F2527349B00B46E88 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2A5D98493FED72A22297F76B50B510E1 /* Pods-Pep_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pep_Example-umbrella.h"; sourceTree = "<group>"; };
 		2BD9AA1871802CDC2C4C370A3D303244 /* Pep-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pep-umbrella.h"; sourceTree = "<group>"; };
 		2D767B6D34647ED2CEEA50763819DEB1 /* Pods-Pep_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pep_Tests-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3F963835E957AA98D1B1BC467963B77C /* Pep-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pep-dummy.m"; sourceTree = "<group>"; };
 		440D377DC37057ACEB9E0B6D89531657 /* Pep-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pep-prefix.pch"; sourceTree = "<group>"; };
-		463A226A65B34E9DCB3E4A839E9A92F9 /* Pods_Pep_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Pep_Example.framework; path = "Pods-Pep_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		463A226A65B34E9DCB3E4A839E9A92F9 /* Pods_Pep_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pep_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		485123C8BAA52490EAAA949F69B36DA9 /* Pods-Pep_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pep_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4FBF3277EE84100486A55BE71BD54740 /* Pods-Pep_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pep_Example-frameworks.sh"; sourceTree = "<group>"; };
-		541E519A62A7F0EA1174F7698E0E008A /* Pods_Pep_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Pep_Tests.framework; path = "Pods-Pep_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7015EEC9F61F770B05FB10FFC83EE03A /* Pep.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Pep.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7334080A2B7EFC5A202FE9079528D473 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		541E519A62A7F0EA1174F7698E0E008A /* Pods_Pep_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pep_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7015EEC9F61F770B05FB10FFC83EE03A /* Pep.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Pep.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7334080A2B7EFC5A202FE9079528D473 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7B87149F78FE5BDFEBC89CC9CDA96A56 /* Pods-Pep_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pep_Example-Info.plist"; sourceTree = "<group>"; };
-		7BF014246AD2241E13142D914C4BB549 /* Pep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pep.framework; path = Pep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF014246AD2241E13142D914C4BB549 /* Pep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3D3711EB35F6CAA3964CFCB8AF9823 /* Pods-Pep_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pep_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		96E6E1BA974F6966CC4871BA8873EE60 /* Pods-Pep_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pep_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9AB1DE0240BC1EA91E8A8003CC2D20 /* Pods-Pep_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pep_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A610C11C6B1A6EDBE4794D553DC1D203 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A610C11C6B1A6EDBE4794D553DC1D203 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AB9B483F553B4BABA439007D7BCF3D5E /* Pods-Pep_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pep_Tests-Info.plist"; sourceTree = "<group>"; };
 		AE691DDED0A1488446A8D3729D574E72 /* Pep-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pep-Info.plist"; sourceTree = "<group>"; };
 		B8FAEC916C646723E476038BB2DFCD1C /* Pods-Pep_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pep_Example.modulemap"; sourceTree = "<group>"; };
@@ -100,6 +106,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		215B14762527339900B46E88 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				215B147A252733B600B46E88 /* PepBarController.swift */,
+				215B147F252733D300B46E88 /* PepBar.swift */,
+				215B148A2527346A00B46E88 /* PepBarItem.swift */,
+				215B148F2527349B00B46E88 /* Extensions.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		239C4E6C8D75EFBC96DE2853409EF148 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,7 +232,7 @@
 		F5E0BB3266F0D3B2C0D11CE259F746E2 /* Pep */ = {
 			isa = PBXGroup;
 			children = (
-				0CBAA8591E560008EDE6560CBDF78031 /* ReplaceMe.swift */,
+				215B14762527339900B46E88 /* Sources */,
 				62BDFEA921260AE5C000A769014BF01B /* Pod */,
 				239C4E6C8D75EFBC96DE2853409EF148 /* Support Files */,
 			);
@@ -316,7 +333,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					FF9F14BD03EC67F1F683CD5AB004951F = {
+						LastSwiftMigration = 1200;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -383,8 +405,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215B14902527349B00B46E88 /* Extensions.swift in Sources */,
+				215B148B2527346A00B46E88 /* PepBarItem.swift in Sources */,
+				215B1480252733D300B46E88 /* PepBar.swift in Sources */,
 				228F54B3F2F0924138A55DFB96AF5971 /* Pep-dummy.m in Sources */,
-				226E73A092A9928E4F89ACC789802769 /* ReplaceMe.swift in Sources */,
+				215B147B252733B600B46E88 /* PepBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +447,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Pep_Example/Pods-Pep_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Pep_Example/Pods-Pep_Example.modulemap";
@@ -444,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 06960742908856A7D2BDDB38B96C93FE /* Pep.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -456,15 +482,16 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Pep/Pep-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Pep/Pep-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pep/Pep.modulemap";
 				PRODUCT_MODULE_NAME = Pep;
 				PRODUCT_NAME = Pep;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -488,7 +515,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Pep_Tests/Pods-Pep_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Pep_Tests/Pods-Pep_Tests.modulemap";
@@ -532,6 +559,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -554,13 +582,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -592,6 +619,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -617,7 +645,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -646,7 +674,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Pep_Tests/Pods-Pep_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Pep_Tests/Pods-Pep_Tests.modulemap";
@@ -679,7 +707,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Pep_Example/Pods-Pep_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Pep_Example/Pods-Pep_Example.modulemap";
@@ -700,6 +728,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C8924C658F42CFCB8F6E65CB0B654C54 /* Pep.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -712,15 +741,17 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Pep/Pep-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Pep/Pep-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pep/Pep.modulemap";
 				PRODUCT_MODULE_NAME = Pep;
 				PRODUCT_NAME = Pep;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
