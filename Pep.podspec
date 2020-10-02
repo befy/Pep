@@ -31,15 +31,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
   s.source_files = 'Sources/**/*.swift'
-  s.platforms = {
-      "ios": "12.0"
-  }
   
-  # s.resource_bundles = {
-  #   'Pep' => ['Pep/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
