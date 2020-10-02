@@ -71,7 +71,7 @@ override func viewDidLoad() {
     ]
 }
 ```
-5. Voila! You are ready to go.
+5. Voila! You are ready to go. See example project for further customization.
 
 ## Contribute
 
