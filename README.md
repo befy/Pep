@@ -45,7 +45,7 @@ import Pep
 
 1. Create a class that inherits from ```PepTabBarController```
 ```swift
-import EZSwiftExtensions
+import Pep
 final class TabBarController: PepTabBarController {}
 ```
 2. In this class, initialize view controllers that you want to present in bar.
