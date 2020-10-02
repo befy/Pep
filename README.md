@@ -22,9 +22,12 @@ One to two paragraph statement about your product and what it does.
 You can use [CocoaPods](http://cocoapods.org/) to install `Pep` by adding it to your `Podfile`:
 
 ```ruby
-platform :ios, '8.0'
-use_frameworks!
 pod 'Pep'
+```
+Then, run the following command in command-line:
+
+```bash
+$ pod install
 ```
 
 To get the full benefits import `Pep` wherever you import UIKit
