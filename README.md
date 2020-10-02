@@ -7,7 +7,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/LFAlertController.svg?style=flat)](http://cocoapods.org/pods/LFAlertController)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-One to two paragraph statement about your product and what it does.
+Pep is an approach outside of the standard "Tab Bar" stance. Lightweight, customizable and improvable.
 
 ![](Screenshots/example.gif)
 
