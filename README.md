@@ -1,5 +1,5 @@
 # Pep a.k.a PepBar
-> Short blurb about what your product does.
+> Pep is a lightweight, highly customizable TabBar-like approach.
 
 [![Swift Version](https://img.shields.io/badge/Swift-5.0.x-orange.svg)](https://swift.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -43,14 +43,36 @@ import Pep
 
 ## Usage example
 
-1.
-
+1. Create a class that inherits from ```PepTabBarController```
 ```swift
 import EZSwiftExtensions
-ez.detectScreenShot { () -> () in
-print("User took a screen shot")
+final class TabBarController: PepTabBarController
 }
 ```
+2. In this class, initialize view controllers that you want to present in bar.
+```swift
+let homeViewController = HomeViewController()
+let favoritesViewController = FavoritesViewController()
+let settingsViewController = SettingsViewController()
+```
+3. Assign UITabBarItem to view controllers with title, image and selected image properties.
+```swift
+let image = UIImage(named: "x").withRenderingMode(.alwaysOriginal)
+let selectedImage = UIImage(named: "y").withRenderingMode(.alwaysOriginal)
+homeViewController.tabBarItem = UITabBarItem(title: title, image: image, selectedImage: selectedImage)
+}
+```
+4. In ```viewDidLoad``` assign these view controllers to `self.viewControllers`
+```swift
+override func viewDidLoad() {
+    super.viewDidLoad()
+
+    self.viewControllers = [
+        homeViewController, favoritesViewController, settingsViewController
+    ]
+}
+```
+5. Voila! You are ready to go.
 
 ## Contribute
 
