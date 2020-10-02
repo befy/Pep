@@ -36,8 +36,7 @@ To get the full benefits import `Pep` wherever you import UIKit
 import UIKit
 import Pep
 ```
-github "yourUsername/yourlibrary"
-```
+
 #### Manually
 1. Download and drop ```YourLibrary.swift``` in your project.  
 2. Congratulations!  
