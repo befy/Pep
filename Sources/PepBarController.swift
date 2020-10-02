@@ -2,7 +2,7 @@
 //  PepBarController.swift
 //  Pep
 //
-//  Created by Alper Tabak on 2.10.2020.
+//  Created by befy on 2.10.2020.
 //
 
 import UIKit

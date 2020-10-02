@@ -2,12 +2,11 @@
 //  PepBar.swift
 //  Pep
 //
-//  Created by Alper Tabak on 2.10.2020.
+//  Created by befy on 2.10.2020.
 //
 
 import UIKit
 
-// swiftlint:disable all
 protocol PepBarDelegate: AnyObject {
     func tabSelected(_ tabBar: PepBar, selectedTab index: Int)
 }
