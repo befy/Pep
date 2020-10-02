@@ -68,7 +68,6 @@ public extension UITabBarItem {
         image: UIImage?,
         selectedImage: UIImage?) -> UITabBarItem? {
         guard let image = image, let selectedImage = selectedImage else {
-            print("resim yok")
             return nil
         }
         

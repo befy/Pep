@@ -38,10 +38,12 @@ import Pep
 ```
 
 #### Manually
-1. Download and drop ```YourLibrary.swift``` in your project.  
+1. Download and drop ```Sources``` file  in your project.  
 2. Congratulations!  
 
 ## Usage example
+
+1.
 
 ```swift
 import EZSwiftExtensions
