@@ -59,7 +59,6 @@ let settingsViewController = SettingsViewController()
 let image = UIImage(named: "x").withRenderingMode(.alwaysOriginal)
 let selectedImage = UIImage(named: "y").withRenderingMode(.alwaysOriginal)
 homeViewController.tabBarItem = UITabBarItem(title: title, image: image, selectedImage: selectedImage)
-}
 ```
 4. In ```viewDidLoad``` assign these view controllers to `self.viewControllers`
 ```swift
