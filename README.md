@@ -79,6 +79,6 @@ We would love you for the contribution to **Pep**.
 
 ## Meta
 
-befy– [@alpertab](https://twitter.com/alpertab) – alper@tabak.com
+befy – [@alpertab](https://twitter.com/alpertab) – alper@tabak.app
 
 Pep is available under the MIT license. See the LICENSE file for more info.
