@@ -99,7 +99,7 @@ final class PepBar: UIView, PepBarType {
     private lazy var innerCircleView: UIView = {
         let view = UIView()
         view.backgroundColor = innerIndicatorColor
-        view.layer.cornerRadius = 18
+        view.layer.cornerRadius = 12
         return view
     }()
     
