@@ -76,7 +76,6 @@ open class PepBarController: UIViewController {
         self.view.addSubview(containerView)
         self.containerView.addSubview(tabBar)
         containerView.bringSubviewToFront(tabBar)
-        
     }
     
     open override func viewDidLayoutSubviews() {
