@@ -58,7 +58,7 @@
 		485123C8BAA52490EAAA949F69B36DA9 /* Pods-Pep_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pep_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4FBF3277EE84100486A55BE71BD54740 /* Pods-Pep_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pep_Example-frameworks.sh"; sourceTree = "<group>"; };
 		541E519A62A7F0EA1174F7698E0E008A /* Pods_Pep_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pep_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7015EEC9F61F770B05FB10FFC83EE03A /* Pep.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Pep.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7015EEC9F61F770B05FB10FFC83EE03A /* Pep.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Pep.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		7334080A2B7EFC5A202FE9079528D473 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7B87149F78FE5BDFEBC89CC9CDA96A56 /* Pods-Pep_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pep_Example-Info.plist"; sourceTree = "<group>"; };
 		7BF014246AD2241E13142D914C4BB549 /* Pep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
