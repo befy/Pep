@@ -1,8 +1,8 @@
 {
   "name": "Pep",
   "version": "0.1.0",
-  "summary": "A short description of Pep.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Pep a.k.a PepBar is a light-weight and easily customizable animated TabBar library.",
+  "description": "'Pep has a different TabBar design system. It uses Child View Controllers as a Container. Without any TabBar inheritance, Pep is very fast, efficient to use and very easy to customize.'",
   "homepage": "https://github.com/befy/Pep",
   "license": {
     "type": "MIT",
@@ -15,8 +15,11 @@
     "git": "https://github.com/befy/Pep.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/alpertab",
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "Pep/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "Sources/**/*.swift",
+  "swift_version": "5.0"
 }
